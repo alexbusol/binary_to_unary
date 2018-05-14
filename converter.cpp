@@ -15,6 +15,7 @@ int main()
     string MESSAGE;
     getline(cin, MESSAGE);
     
+    //converting the string to binary number
     for (int i = 0; i<MESSAGE.length(); i++) {
         toBinary((int)MESSAGE[i]);
         //cout<<" ";
